@@ -1,0 +1,30 @@
+Package: a4syahpradana
+Title: Exploring The Most Common Name in America
+Version: 0.1.0
+Authors@R: 
+    person("Akbar Rakha", "Syahpradana", , "asya0008@student.monash.edu",
+    role = c("aut", "cre"))
+Description: This package provides a cleaned dataset of the most common
+    first and last name combinations in America, including baseline
+    and adjusted estimates. It also includes helper functions to
+    summarise and rank names for visualisation and exploration.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr,
+    readr,
+    stringr,
+    rlang,
+    shiny,
+    bslib,
+    ggplot2,
+    scales
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends:
+    R (>= 3.5)
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
