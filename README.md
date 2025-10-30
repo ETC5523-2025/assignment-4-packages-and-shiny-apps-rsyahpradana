@@ -46,8 +46,6 @@ run_names_app()
 
 ## Website
 
-## Website
-
 The full documentation of the package is available at the following
 link:
 
