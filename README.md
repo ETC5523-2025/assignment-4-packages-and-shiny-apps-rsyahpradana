@@ -45,3 +45,11 @@ run_names_app()
 ```
 
 ## Website
+
+## Website
+
+The full documentation of the package is available at the following
+link:
+
+[a4syahpradana pkgdown
+site](https://etc5523-2025.github.io/assignment-4-packages-and-shiny-apps-rsyahpradana/)
