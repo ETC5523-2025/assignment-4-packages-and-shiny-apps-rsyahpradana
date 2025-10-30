@@ -1,4 +1,46 @@
-usethisurl: ~
 template:
   bootstrap: 5
+  bootswatch: flatly
+  bslib:
+    primary: "#2C3E50"
+    secondary: "#18BC9C"
+    success: "#18BC9C"
+    info: "#3498DB"
+    danger: "#E74C3C"
+    base_font: {google: "Open Sans"}
+    heading_font: {google: "Montserrat"}
+    code_font: {google: "Fira Code"}
 
+home:
+  title: "a4syahpradana"
+  description: >
+    An R package providing a cleaned dataset and interactive dashboard
+    to explore the most common American names.
+  links:
+    - text: "GitHub Repository"
+      href: "https://github.com/ETC5523-2025/assignment-4-packages-and-shiny-apps-rsyahpradana"
+
+authors:
+  Akbar Rakha Syahpradana:
+    href: https://github.com/rsyahpradana
+    roles: [aut, cre]
+    email: asya0008@student.monash.edu
+
+navbar:
+  title: "a4syahpradana"
+  type: default
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Reference"
+      href: reference/index.html
+    - text: "Get Started"
+      href: articles/getting-started.html
+  right:
+    - icon: fab fa-github
+      href: "https://github.com/ETC5523-2025/assignment-4-packages-and-shiny-apps-rsyahpradana"
+
+articles:
+  - title: "Getting Started"
+    contents:
+      - getting-started
