@@ -2,15 +2,6 @@ destination: docs
 template:
   bootstrap: 5
   bootswatch: flatly
-  bslib:
-    primary: "#2C3E50"
-    secondary: "#18BC9C"
-    success: "#18BC9C"
-    info: "#3498DB"
-    danger: "#E74C3C"
-    base_font: {google: "Open Sans"}
-    heading_font: {google: "Montserrat"}
-    code_font: {google: "Fira Code"}
 
 home:
   title: "a4syahpradana"
@@ -33,7 +24,7 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "Reference"
+    - text: "Documentation"
       href: reference/index.html
     - text: "Get Started"
       href: articles/getting-started.html
@@ -45,3 +36,14 @@ articles:
   - title: "Getting Started"
     contents:
       - getting-started
+
+reference:
+  - title: "Documentation"
+    desc: >
+      Explore the package documentation for functions and utilities
+      that help you load, rank, and launch the interactive dashboard.
+    contents:
+      - a4syahpradana
+      - common_names
+      - top_ranked_names
+      - run_names_app
